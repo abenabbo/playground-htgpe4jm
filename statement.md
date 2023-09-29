@@ -13,12 +13,14 @@ let message = "Révision";
 let message = "Révision révisée";
 ```
 - Le code ci-dessous retourne une erreur, pourquoi ? 
-- Remplacez _let_ par _var_, qu'en déduisez vous ? 
+- Remplacez ```let``` par ```var```, qu'en déduisez vous ? 
 
 En utilisant let, déclarez (par au moins deux manières différentes), trois variables en leur attribuant une valeur : 
-- name 
-- nickname 
-- age 
+- ```name```
+- ```nickname```
+- ```age``` 
+
+... puis affichez le messag "Bonjour [name], tu as [age] ans et ton pseudo est : [nickname]"
 
 
 
