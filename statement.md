@@ -20,10 +20,23 @@ En utilisant let, déclarez (par au moins deux manières différentes), trois va
 - ```nickname```
 - ```age``` 
 
-... puis affichez le messag "Bonjour [name], tu as [age] ans et ton pseudo est : [nickname]"
+... puis affichez le message ```"Bonjour [name], tu as [age] ans et ton pseudo est : [nickname]"```
+
+
+### 
+
+### Conversion, syntax (virgule, precedence)
 
 
 
+### interactivité
+En utilisant les fonctions ```prompt```, ```confirm``` et ```alert``` :
+- Demandez à un utilisateur de rentrez son nom, son age, puis son peudo (fonction ```prompt```)
+- Ajoutez 3 à son age. ()
+- Demandez à l'utilisateur de confirmer ces informations (```confirm```)
+- Affichez un message d'excuse. 
 
 
+
+<!-- typeof -->
 <!-- Debugger page avec erreur-->
