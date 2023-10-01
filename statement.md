@@ -71,7 +71,7 @@ Ecrivez les fonctions suivantes :
 - ```maximum(tableau)```, calcule et renvoie le maximum des éléments du tableau
 
 3- Créez un objet ```etudiant``` dont les proriétés sont le nom, prénom, email, age et notes de l'étudiant.
-Ecrivez une fonction ```afficherEtudiant(etudiant)``` qui affichera les détails de l'étudiant
+Ecrivez une méthode ```afficherEtudiant(etudiant)``` qui affichera les détails de la manière suivante : 
 
 ```
 [Prénom] [Nom] | [email] | [notes]
@@ -87,8 +87,14 @@ Ecrivez une fonction qui permet de créer un étudiant à partir des données en
 - vérifiez que l'email est une adresse institutionnelle de l'IUT Paul Sabatier
 - générez 5 notes aléatoires (/20) 
 //exemple execution
+- Ecrivez une méthode afficher() qui affiche tous les détails d'un étudiant
 
-- Ecrivez un programme qui demande à entrer 5 étudiants, crée les objets correspondants et les stockes dans un tableau d'étudiants.
+### Gestion des étudiants
+- Ecrivez un programme qui demande à entrer 3 étudiants, crée les objets correspondants et les stocke dans un tableau d'étudiants appelé ```promotion```.
+- Ecrivez une méthode afficherEtudiants() qui affiche les détails de tous les étudiants
+- Ecrivez une méthode qui renvoie la moyenne de la promotion
+- Ecrivez une méthode qui renvoie le nom et prénom du major de la promotion
+- Ecrivez une méthode qui classe et affiche l'ensemble des étudiants en fonction de leur moyenne.
 
 
 
