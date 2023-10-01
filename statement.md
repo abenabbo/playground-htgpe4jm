@@ -70,7 +70,27 @@ Ecrivez les fonctions suivantes :
 - ```moyenne(tableau)```, calcule et renvoie la moyenne des éléments du tableau
 - ```maximum(tableau)```, calcule et renvoie le maximum des éléments du tableau
 
-3- Créez un objet ```etudiant``` 
+3- Créez un objet ```etudiant``` dont les proriétés sont le nom, prénom, email, age et notes de l'étudiant.
+Ecrivez une fonction ```afficherEtudiant(etudiant)``` qui affichera les détails de l'étudiant
+
+```
+[Prénom] [Nom] | [email] | [notes]
+```
+
+### Création d'un étudiant
+- Ecrivez une fonction qui permet de vérifier si l'adresse mail de l'étudiant est une adresse institutionnelle de l'IUT Paul Sabatier
+//exemple execution
+- Ecrivez une fonction qui permet de générer une note aléatoire entre 0 et max
+//exemple execution
+Ecrivez une fonction qui permet de créer un étudiant à partir des données entrées en prompt. Cette fonction doit respecter les consignes suivantes;
+- si le nom et/ou le prénom ne sont pas renseignés, les extraire de l'adresse mail
+- vérifiez que l'email est une adresse institutionnelle de l'IUT Paul Sabatier
+- générez 5 notes aléatoires (/20) 
+//exemple execution
+
+- Ecrivez un programme qui demande à entrer 5 étudiants, crée les objets correspondants et les stockes dans un tableau d'étudiants.
+
+
 
 
 
