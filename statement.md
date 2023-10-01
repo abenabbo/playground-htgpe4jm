@@ -59,9 +59,18 @@ Le programme stocke ces informations dans des variables puis affiche le message 
 ```
 "Bonjour [name], tu as [age] ans et ton email est : [email]"
 ```
-
 On vérifiera, entre autres, que l'age n'est pas négatif et que les chaines de caractères ne sont pas vides.
 
+2- Ajoutez un tableau de notes et initialisez le avec 5 notes.
+
+Ecrivez les fonctions suivantes : 
+<!-- for & for of & for in && forEach -->
+- ```afficherTableau(tableau)```, affiche l'ensemble des éléments du tableau
+- ```somme(tableau)```, calcule et renvoie la somme des éléments du tableau 
+- ```moyenne(tableau)```, calcule et renvoie la moyenne des éléments du tableau
+- ```maximum(tableau)```, calcule et renvoie le maximum des éléments du tableau
+
+3- Créez un objet ```etudiant``` 
 
 
 
