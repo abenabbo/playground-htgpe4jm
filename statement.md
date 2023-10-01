@@ -49,8 +49,8 @@ In practice though, we may want to use default value only when the variable is n
 
 
 ## Exercices
-### 1
-Ecrivez un programme qui demande les informations suivantes à l'utilisateur :
+
+1- Ecrivez un programme qui demande les informations suivantes à l'utilisateur :
 - Nom 
 - Prénom 
 - Email 
