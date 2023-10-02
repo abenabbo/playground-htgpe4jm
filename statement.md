@@ -94,6 +94,32 @@ Que renvoie les comparaisons suivantes ?
 0 == false
 ```
 
+<!-- 
+console.log(priority_1 || priority_2 || priority_3);
+console.log(priority_1 ?? priority_2 ?? priority_3);
+
+console.log(0 || 100);
+console.log(0 ?? 100);
+
+ -->
+```javascript
+let priority_1 ; // ex. priority_1= null;
+let priority_2 ; // ex. priority_2= "Envoyer email";
+let priority_3 ; // ex. priority_3= "Nettoyer bureau";
+
+
+// Ecrivez un programme qui permet d'afficher la prochaine tâche prioritaire à faire
+// Exemple d'exécution :
+// ex. priority_1= null;
+// ex. priority_2= "Envoyer email";
+// ex. priority_3= "Nettoyer bureau";
+// => "la prochaine tache de la to-do liste est : Envoyer email"
+
+//PS: une solution des solutions possibles tient sur une ligne de code
+```
+
+
+
 # Révision javascript
 
 ?[Javascript peut être exécuté ...]
