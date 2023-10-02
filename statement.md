@@ -28,6 +28,12 @@ let variable = 12.5;
 variable = "Je suis une chaine de caractère"; 
 ```
 
+Que renvoient les programmes suivants ? 
+
+```javascript
+console.log("not")
+```
+
 
 
 # Révision javascript
