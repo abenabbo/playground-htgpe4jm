@@ -31,10 +31,68 @@ variable = "Je suis une chaine de caractère";
 Que renvoient les programmes suivants ? 
 
 ```javascript
-console.log("not")
+console.log("trois"/5);
+```
+
+```javascript
+let prenom = "Azzeddine"
+console.log("Bonjour ${prenom}, ça va ?");
+```
+
+```javascript
+console.log(  5 > 3);
+```
+<!--In JavaScript, null is not a “reference to a non-existing object” or a “null pointer” like in some other languages.
+It’s just a special value which represents “nothing”, “empty” or “value unknown”.-->
+
+```javascript
+let prenom;
+console.log(prenom);
+```
+
+```javascript
+console.log("10" * "20");
+```
+
+```javascript
+console.log("5" + 9);
+console.log(5 + 2 + "9");
+console.log("5" + 2 + 9);
+console.log("5" - 9);
 ```
 
 
+```javascript
+
+console.log( +'3' + +'20');
+```
+
+```javascript
+"" + 1 + 0
+"" - 1 + 0
+true + false
+6 / "3"
+"2" * "3"
+4 + 5 + "px"
+"$" + 4 + 5
+"4" - 2
+"4px" - 2
+"  -9  " + 5
+"  -9  " - 5
+null + 1
+undefined + 1
+" \t \n" - 2
+```
+
+
+Que renvoie les comparaisons suivantes ? 
+```javascript
+10 > 50
+"a" < "Z"
+5 == "5"
+5 === "5"
+0 == false
+```
 
 # Révision javascript
 
