@@ -1,3 +1,35 @@
+- Les programmes suivant renvoient-il une erreur ? 
+```javascript
+console.log('Bonjour')
+console.log( 'Rebonjour')
+```
+
+```javascript
+let _variable;
+let _; 
+let my-variable;
+let x$; 
+let 我 = '...';
+```
+
+```javascript
+let variable;
+let variable = 55;
+
+```
+
+<!--//"use strict";-->
+```javascript
+message = "Bonjour"; 
+```
+
+```javascript
+let variable = 12.5;
+variable = "Je suis une chaine de caractère"; 
+```
+
+
+
 # Révision javascript
 
 ?[Javascript peut être exécuté ...]
