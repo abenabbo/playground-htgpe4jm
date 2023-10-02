@@ -101,6 +101,10 @@ console.log(priority_1 ?? priority_2 ?? priority_3);
 console.log(0 || 100);
 console.log(0 ?? 100);
 
+equivalent à : 
+(a !== null && a !== undefined) ? a : b;
+
+|| doesn’t distinguish between false, 0, an empty string "" and null/undefined.
  -->
 ```javascript
 let priority_1 ; // ex. priority_1= null;
@@ -118,6 +122,40 @@ let priority_3 ; // ex. priority_3= "Nettoyer bureau";
 //PS: une solution des solutions possibles tient sur une ligne de code
 ```
 
+Qu'affiche ce programme ? Le résultat aurait-il été différent avec ```break``` à la place de ```continue``` ?
+```javascript
+for (let i = 0; i < 10; i++) {
+
+  if (i = 5 ) continue;
+  console.log (i); 
+}
+```
+
+Réecrivez le programme suivant en utilisant un switch
+```javascript
+    if(browser == 'Edge') {
+        console.log("Mouais");
+    } else if (browser == 'Chrome'
+        || browser == 'Firefox'
+        || browser == 'Safari'
+        || browser == 'Opera') {
+        console.log( 'Navigateur supporté' );
+    } else {
+    console.log( 'Navigateur inconnu !' );
+    }
+```
+
+Quelle est la valeur de result ?
+```javascript
+    function numberFunction() {
+    let number = 5;
+    }
+
+    let number = 10;
+    numberFunction()
+    result = number + 1;
+    console.log( result ); 
+```
 
 
 # Révision javascript
