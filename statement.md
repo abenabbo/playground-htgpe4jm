@@ -10,9 +10,9 @@ let _;
 let my-variable;
 let x$; 
 let 我;
-{ autofold
-  code which is collapsed
-}
+//{ autofold
+  let x = 2
+//}
 ```
 
 
