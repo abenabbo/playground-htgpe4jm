@@ -145,16 +145,47 @@ Réecrivez le programme suivant en utilisant un switch
     }
 ```
 
-Quelle est la valeur de result ?
+Quelle est la valeur de ```result``` ?
 ```javascript
-    function numberFunction() {
+function numberFunction() {
     let number = 5;
-    }
+}
 
-    let number = 10;
-    numberFunction()
-    result = number + 1;
-    console.log( result ); 
+let number = 10;
+numberFunction()
+result = number + 1;
+console.log( result ); 
+```
+
+
+Réecrivez cette fonction sans ```if```
+```javascript
+
+function showIdentity(id, login){
+    if(id === undefined)
+        id = "No ID";
+    if(login === undefined)
+        login = "Unknown";
+    
+    console.log(id);
+    console.log(login);
+}
+
+```
+
+Complétez la fonction traiterTexte (et ajoutez-en d'autres si besoin) qui permet de formater un texte. Voir exemples d'exécution
+```javascript
+function traiterTexte( ... ){
+    // ...
+    console.log(text);
+}
+
+traiterTexte("users", prefixerWP) // => "wp_users"
+traterTexte("users", prefixerPS) // => "ps_users"
+traterTexte("users", parentheser) // => "(users)"
+
+
+
 ```
 
 
