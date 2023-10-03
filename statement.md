@@ -1,4 +1,4 @@
-- Les programmes suivant renvoient-il une erreur ? 
+- Les programmes suivants renvoient-ils une erreur ? 
 ```javascript
 console.log('Bonjour')
 console.log( 'Rebonjour')
@@ -186,6 +186,21 @@ traterTexte("users", parentheser) // => "(users)"
 
 
 
+```
+
+Analyse le programme suivant. Identifiez vous des problèmes au niveau de l'appel aux fonctions, de la decalaration ou de la défintion des fonctions ? 
+
+```javascript
+myFunction();
+myFunction_2();
+
+function myFunction (){
+  console.log("my function");
+}
+
+let myFunction_2 = function(){
+  console.log("my function 2");
+}
 ```
 
 
