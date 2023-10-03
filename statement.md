@@ -10,41 +10,45 @@ let _;
 let my-variable;
 let x$; 
 let 我;
-{ autofold
-  let x = 2
-}
 ```
 
-
+<!-- utilisation du var -->
 ```javascript
 let variable;
 let variable = 55;
-
 ```
 
 <!--//"use strict";-->
 ```javascript
 message = "Bonjour"; 
 ```
-
+<!-- Pas de soucis. Une variable peut changer de type;-->
 ```javascript
 let variable = 12.5;
 variable = "Je suis une chaine de caractère"; 
 ```
 
-Que renvoient les programmes suivants ? 
+### Que renvoient les programmes suivants ? 
 
+<!-- NaN  -->
 ```javascript
 console.log("trois"/5);
 ```
 
+<!-- Il faut utiliser les backticks   -->
 ```javascript
-let prenom = "Azzeddine"
+let prenom = "Azzeddine";
 console.log("Bonjour ${prenom}, ça va ?");
 ```
 
+<!-- true
+    false
+    true
+  -->
 ```javascript
-console.log(  5 > 3);
+console.log( 5 > 3 );
+console.log( 10 > 5 > 2 );
+console.log( 10 > 5 < 2 );
 ```
 <!--In JavaScript, null is not a “reference to a non-existing object” or a “null pointer” like in some other languages.
 It’s just a special value which represents “nothing”, “empty” or “value unknown”.-->
@@ -54,12 +58,13 @@ let prenom;
 console.log(prenom);
 ```
 
+<!-- 200  -->
 ```javascript
 console.log("10" * "20");
 ```
 
 ```javascript
-console.log("5" + 9);
+console.log("50" + 9);
 console.log(5 + 2 + "9");
 console.log("5" + 2 + 9);
 console.log("5" - 9);
@@ -72,20 +77,20 @@ console.log( +'3' + +'20');
 ```
 
 ```javascript
-"" + 1 + 0
-"" - 1 + 0
-true + false
-6 / "3"
-"2" * "3"
-4 + 5 + "px"
-"$" + 4 + 5
-"4" - 2
-"4px" - 2
-"  -9  " + 5
-"  -9  " - 5
-null + 1
-undefined + 1
-" \t \n" - 2
+console.log( "" + 1 + 0)
+console.log( "" - 1 + 0)
+console.log( true + false)
+console.log( 6 / "3")
+console.log( "2" * "3")
+console.log( 4 + 5 + "px")
+console.log( "$" + 4 + 5)
+console.log( "4" - 2)
+console.log( "4px" - 2)
+console.log( "  -9  " + 5)
+console.log( "  -9  " - 5 )
+console.log( null + 1 )
+console.log( undefined + 1 )
+console.log( " \t \n" - 2 )
 ```
 
 
