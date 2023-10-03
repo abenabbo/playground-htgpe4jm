@@ -9,8 +9,12 @@ let _variable;
 let _; 
 let my-variable;
 let x$; 
-let 我 = '...';
+let 我;
+// { autofold
+  code which is collapsed
+// }
 ```
+
 
 ```javascript
 let variable;
