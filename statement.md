@@ -173,7 +173,7 @@ function showIdentity(id, login){
 
 ```
 
-Complétez la fonction traiterTexte (et ajoutez-en d'autres si besoin) qui permet de formater un texte. Voir exemples d'exécution
+Complétez la fonction ```traiterTexte``` (et ajoutez-en d'autres si besoin) qui permet de formater un texte au format donné. Voir exemples d'exécution
 ```javascript
 function traiterTexte( ... ){
     // ...
