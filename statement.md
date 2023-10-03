@@ -94,13 +94,14 @@ console.log( " \t \n" - 2 )
 ```
 
 
-Que renvoie les comparaisons suivantes ? 
+### Que renvoient les comparaisons suivantes ? 
+<!-- lettres minuscules toujours plus grandes-->
 ```javascript
-10 > 50
-"a" < "Z"
-5 == "5"
-5 === "5"
-0 == false
+console.log( 10 > 50 )
+console.log( "a" < "Z" )
+console.log( 5 == "5" )
+console.log( 5 === "5" )
+console.log( 0 == false )
 ```
 
 <!-- 
@@ -115,6 +116,7 @@ equivalent à :
 
 || doesn’t distinguish between false, 0, an empty string "" and null/undefined.
  -->
+ Complétez le programme suivant
 ```javascript
 let priority_1 ; // ex. priority_1= null;
 let priority_2 ; // ex. priority_2= "Envoyer email";
@@ -126,7 +128,7 @@ let priority_3 ; // ex. priority_3= "Nettoyer bureau";
 // ex. priority_1= null;
 // ex. priority_2= "Envoyer email";
 // ex. priority_3= "Nettoyer bureau";
-// => "la prochaine tache de la to-do liste est : Envoyer email"
+// => afficher "la prochaine tache de la to-do liste est : Envoyer email"
 
 //PS: une solution des solutions possibles tient sur une ligne de code
 ```
@@ -135,7 +137,7 @@ Qu'affiche ce programme ? Le résultat aurait-il été différent avec ```break`
 ```javascript
 for (let i = 0; i < 10; i++) {
 
-  if (i = 5 ) continue;
+  if (i == 5 ) continue;
   console.log (i); 
 }
 ```
@@ -155,6 +157,7 @@ Réecrivez le programme suivant en utilisant un switch
 ```
 
 Quelle est la valeur de ```result``` ?
+<!-- 11 -->
 ```javascript
 function numberFunction() {
     let number = 5;
@@ -197,7 +200,7 @@ traterTexte("users", parentheser) // => "(users)"
 
 ```
 
-Analyse le programme suivant. Identifiez vous des problèmes au niveau de l'appel aux fonctions, de la decalaration ou de la défintion des fonctions ? 
+Analyse le programme suivant. Est-ce que vous identifiez des problèmes au niveau de l'appel aux fonctions, de la decalaration ou de la défintion des fonctions ? 
 
 ```javascript
 myFunction();
@@ -223,31 +226,12 @@ let myFunction_2 = function(){
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 
-``` javascript runnable
-let message = "Révision";
-let message = "Révision révisée";
-```
-- Le code ci-dessous retourne une erreur, pourquoi ? 
-- Remplacez ```let``` par ```var```, qu'en déduisez vous ? 
-
-En utilisant let, déclarez (par au moins deux manières différentes), trois variables en leur attribuant une valeur : 
-- ```name```
-- ```nickname```
-- ```age``` 
-
-... puis affichez le message ```"Bonjour [name], tu as [age] ans et ton pseudo est : [nickname]"```
-
-
-### 
-
-### Conversion, syntax (virgule, precedence)
-
 
 
 ### interactivité
 En utilisant les fonctions ```prompt```, ```confirm``` et ```alert``` :
 - Demandez à un utilisateur de rentrez son nom, son age, puis son peudo (fonction ```prompt```)
-- Ajoutez 3 à son age. ()
+- Ajoutez 3 à son age.
 - Demandez à l'utilisateur de confirmer ces informations (```confirm```)
 - Affichez un message d'excuse. 
 
@@ -255,12 +239,6 @@ En utilisant les fonctions ```prompt```, ```confirm``` et ```alert``` :
 alert( null || 2 || undefined );
 
 alert( 1 && null && 2 );
-
-alert( null || 2 || undefined );
-In other words, || doesn’t distinguish between false, 0, an empty string "" and null/undefined. They are all the same – falsy values. If any of these is the first argument of ||, then we’ll get the second argument as the result.
-In practice though, we may want to use default value only when the variable is null/undefined. That is, when the value is really unknown/not set.
-
-
 
 
 ## Exercices
