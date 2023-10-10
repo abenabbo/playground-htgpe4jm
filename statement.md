@@ -1,5 +1,5 @@
 ### Les programmes suivants renvoient-ils une erreur ? 
-```javascript
+```javascript runnable
 console.log('Bonjour')
 console.log( 'Rebonjour')
 ```
